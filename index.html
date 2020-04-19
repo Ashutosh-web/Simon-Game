@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon Game</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
+  <!-- FontAwesome CDN link -->
+  <script src="https://kit.fontawesome.com/fb7918aa18.js" crossorigin="anonymous"></script>
+
+  <link rel="icon" href="game.png" />
+</head>
+
+<body>
+  <p class="game">
+    Simon Game
+  </p>
+  <h1 id="level-title">Press <i class="fas fa-bullseye start-btn fa-lg"></i> b/w the colors to Start</h1>
+  <div class="container">
+    <div lass="row">
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="start-row">
+       <i class="fas fa-bullseye start-btn fa-3x"></i>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+  </div>
+
+  <p class="help-text">
+    How To Play!
+  </p>
+
+  <div class="help">
+   <p>
+      1. Press the bullseye to start the game.<br />
+      2. Lets say R(Red),B(Blue),Y(Yellow),G(Green)<br />
+      3. Let's suppose the system generates a color R.<br />
+      4. Then user has to press R.<br />
+      5. After that system generates a color B.<br />
+      6. Then user has to press R,B.<br />
+      7. In the similar manner everytime system generates a random color.<br />
+      8. User has to input all the color sequence from the beginning.<br /><br />
+      <p class="help-text-name">
+        © Ashutosh Kumar
+      </p>
+   </p>
+
+  </div>
+
+ <!-- Scripts -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="games.js" charset="utf-8"></script>
+
+</body>
+
+</html>
